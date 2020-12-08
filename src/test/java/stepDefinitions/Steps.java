@@ -12,6 +12,11 @@ TestContext testContext;
 	public Steps(TestContext context) {
 		testContext = context;
 	}
+
+	@Given("^I navigate to hardcoded url")
+	public void hardCodedNavigate(){
+		pages.BasePage.hardCodedUrl();
+	}
 	
 	@Given("^I navigate to \"([^\"]*)\"$")
 	public void navigateTo(String page) {

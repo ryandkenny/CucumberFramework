@@ -21,6 +21,10 @@ public class BasePage {
 			String url = configFileReader.getApplicationUrl(friendlyName);
 			driver.get(url);		 
 		}
+
+	public static void hardCodedUrl() {
+		driver.get("https://www.duckduckgo.com");
+	}
 	
 	public static void enterTextById(String text, String id) {
 		driver.findElement(By.id(id)).sendKeys(text);
