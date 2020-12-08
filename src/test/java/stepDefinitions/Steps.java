@@ -7,11 +7,11 @@ import io.cucumber.java.en.Then;
 
 
 public class Steps {
-TestContext testContext;
-	
-	public Steps(TestContext context) {
-		testContext = context;
-	}
+//TestContext testContext;
+//
+//	public Steps(TestContext context) {
+//		testContext = context;
+//	}
 
 	@Given("^I navigate to hardcoded url")
 	public void hardCodedNavigate(){
