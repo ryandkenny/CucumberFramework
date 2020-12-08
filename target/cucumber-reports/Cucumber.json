@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-12-08T18:53:47.685Z",
+        "start_timestamp": "2020-12-08T19:02:50.363Z",
         "line": 5,
         "name": "Navigating to duck duck go and search for the gov.uk website",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 1516000,
+              "duration": 1519000,
               "status": "passed"
             },
             "match": {
@@ -20,7 +20,7 @@
           },
           {
             "result": {
-              "duration": 119255000,
+              "duration": 93888000,
               "status": "passed"
             },
             "match": {
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4033978000,
+              "duration": 3312455000,
               "status": "passed"
             },
             "line": 6,
@@ -51,7 +51,7 @@
           },
           {
             "result": {
-              "duration": 121472000,
+              "duration": 131818000,
               "status": "passed"
             },
             "line": 7,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 1721115000,
+              "duration": 1220906000,
               "status": "passed"
             },
             "line": 8,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 73625000,
+              "duration": 73132000,
               "status": "passed"
             },
             "line": 9,
@@ -146,7 +146,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-12-08T18:53:53.810Z",
+        "start_timestamp": "2020-12-08T19:02:55.242Z",
         "line": 5,
         "name": "Navigating to selenium easy and testing form input page",
         "description": "",
@@ -154,7 +154,7 @@
         "after": [
           {
             "result": {
-              "duration": 141000,
+              "duration": 149000,
               "status": "passed"
             },
             "match": {
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 80462000,
+              "duration": 84462000,
               "status": "passed"
             },
             "match": {
@@ -176,7 +176,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3019916000,
+              "duration": 4474351000,
               "status": "passed"
             },
             "line": 6,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 25866000,
+              "duration": 25312000,
               "status": "passed"
             },
             "line": 7,
@@ -212,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 4834000,
+              "duration": 4832000,
               "status": "passed"
             },
             "line": 8,
@@ -230,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 1087181000,
+              "duration": 976742000,
               "status": "passed"
             },
             "line": 9,

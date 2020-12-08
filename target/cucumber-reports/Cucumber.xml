@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="10.475">
-    <testcase classname="Duckduckgo automated test" name="Navigating to duck duck go and search for the gov.uk website" time="6.116">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="10.572">
+    <testcase classname="Duckduckgo automated test" name="Navigating to duck duck go and search for the gov.uk website" time="4.871">
         <system-out><![CDATA[Given I navigate to "duckduckgo"............................................passed
 When I enter "HM Revenue & Customs - GOV.UK" in the "search_form_input_homepage" field.passed
 And I press "search_button_homepage" button.................................passed
 Then I select the "HM Revenue & Customs - GOV.UK" link......................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Selenium easy form test" name="Navigating to selenium easy and testing form input page" time="4.221">
+    <testcase classname="Selenium easy form test" name="Navigating to selenium easy and testing form input page" time="5.568">
         <system-out><![CDATA[Given I navigate to "seleniumEasy"..........................................passed
 Then The 2nd header is "Input form with validations"........................passed
 And The url is "https://www.seleniumeasy.com/test/input-form-demo.html".....passed

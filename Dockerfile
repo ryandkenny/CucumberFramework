@@ -1,12 +1,14 @@
-FROM ubuntu:16.04
-RUN apt-get update
-RUN apt-get update && apt-get install -y \
-  default-jre \
-  default-jdk \
-  git \
-  maven
+FROM maven:3.6.0-jdk-8-alpine
 
-RUN mvn -version
-RUN git clone https://github.com/ryandkenny/CucumberFramework.git
-CMD ls
-RUN cd CucumberFramework && mvn clean test
+# chromeDriver v2.35
+RUN wget -q "https://chromedriver.storage.googleapis.com/2.35/chromedriver_linux64.zip" -O /tmp/chromedriver.zip \
+    && unzip /tmp/chromedriver.zip -d /usr/bin/ \
+    && rm /tmp/chromedriver.zip
+
+COPY src /home/SeleniumTestFramework/src
+
+COPY pom.xml /home/SeleniumTestFramework
+
+COPY configs /home/SeleniumTestFramework/configs
+
+RUN mvn -f /home/SeleniumTestFramework/pom.xml clean test -DskipTests=true
