@@ -7,21 +7,16 @@ import io.cucumber.java.en.Then;
 
 
 public class Steps {
-//TestContext testContext;
-//
-//	public Steps(TestContext context) {
-//		testContext = context;
-//	}
+TestContext testContext;
 
-	@Given("^I navigate to hardcoded url")
-	public void hardCodedNavigate(){
-		pages.BasePage.hardCodedUrl();
+	public Steps(TestContext context) {
+		testContext = context;
 	}
 	
-//	@Given("^I navigate to \"([^\"]*)\"$")
-//	public void navigateTo(String page) {
-//		pages.BasePage.getUrl(page);
-//	}
+	@Given("^I navigate to \"([^\"]*)\"$")
+	public void navigateTo(String page) {
+		pages.BasePage.getUrl(page);
+	}
 
 	@When("^I enter \"([^\"]*)\" in the \"([^\"]*)\" field$")
 	public void searchFor(String text, String id) {

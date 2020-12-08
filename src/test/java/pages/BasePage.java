@@ -6,10 +6,10 @@ import org.openqa.selenium.support.ui.Select;
 
 import dataProvider.ConfigFileReader;
 import managers.FileReaderManager;
- 
+
 public class BasePage {
 	static WebDriver driver;
-//	static ConfigFileReader configFileReader = FileReaderManager.getInstance().getConfigReader();
+	static ConfigFileReader configFileReader = FileReaderManager.getInstance().getConfigReader();
 	
 	
 	public BasePage(WebDriver driver) {
@@ -17,14 +17,10 @@ public class BasePage {
 	}
 	
 	
-//	public static void getUrl(String friendlyName) {
-//			String url = configFileReader.getApplicationUrl(friendlyName);
-//			driver.get(url);
-//		}
-
-	public static void hardCodedUrl() {
-		driver.get("https://www.duckduckgo.com");
-	}
+	public static void getUrl(String friendlyName) {
+			String url = configFileReader.getApplicationUrl(friendlyName);
+			driver.get(url);
+		}
 	
 	public static void enterTextById(String text, String id) {
 		driver.findElement(By.id(id)).sendKeys(text);
