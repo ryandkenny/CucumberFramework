@@ -1,0 +1,284 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-08T18:53:47.685Z",
+        "line": 5,
+        "name": "Navigating to duck duck go and search for the gov.uk website",
+        "description": "",
+        "id": "duckduckgo-automated-test;navigating-to-duck-duck-go-and-search-for-the-gov.uk-website",
+        "after": [
+          {
+            "result": {
+              "duration": 1516000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 119255000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4033978000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to \"duckduckgo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "duckduckgo",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.Steps.navigateTo(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121472000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"HM Revenue \u0026 Customs - GOV.UK\" in the \"search_form_input_homepage\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HM Revenue \u0026 Customs - GOV.UK",
+                  "offset": 9
+                },
+                {
+                  "val": "search_form_input_homepage",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinitions.Steps.searchFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1721115000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press \"search_button_homepage\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "search_button_homepage",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.Steps.pressButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73625000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select the \"HM Revenue \u0026 Customs - GOV.UK\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HM Revenue \u0026 Customs - GOV.UK",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Steps.selectFromResults(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@duckduckgo"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Duckduckgo automated test",
+    "description": "Description: Testing the cucumber selenium framework.",
+    "id": "duckduckgo-automated-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/features/Google_Test.feature",
+    "tags": [
+      {
+        "name": "@duckduckgo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-08T18:53:53.810Z",
+        "line": 5,
+        "name": "Navigating to selenium easy and testing form input page",
+        "description": "",
+        "id": "selenium-easy-form-test;navigating-to-selenium-easy-and-testing-form-input-page",
+        "after": [
+          {
+            "result": {
+              "duration": 141000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 80462000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3019916000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to \"seleniumEasy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "seleniumEasy",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.Steps.navigateTo(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25866000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The 2nd header is \"Input form with validations\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Input form with validations",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.Steps.checkPageHeader2(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4834000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The url is \"https://www.seleniumeasy.com/test/input-form-demo.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.seleniumeasy.com/test/input-form-demo.html",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.Steps.checkPageUrl(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1087181000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Fill out contact us page for customer: \"Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.ContactUsSteps.fillOut(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@formTest"
+          },
+          {
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Selenium easy form test",
+    "description": "Description: Testing the cucumber selenium framework for form input.",
+    "id": "selenium-easy-form-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/features/Selenium_Easy_Test.feature",
+    "tags": [
+      {
+        "name": "@formTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  }
+]

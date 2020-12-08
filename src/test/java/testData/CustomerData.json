@@ -1,0 +1,15 @@
+ [
+  {
+	 "firstName": "Test",
+ 	"lastName": "User",
+ 	"emailAddress": "Lakshay@Gmail.com",
+	 "phoneNumber": "01952123456",
+ 	"address": "123 test street",
+ 	"city": "Test city",
+ 	"state": "California",
+ 	"zipCode": "110088",
+ 	"website": "www.google.com",
+ 	"hosting": true,
+ 	"description": "Test Data"
+ }
+]
