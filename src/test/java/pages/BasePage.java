@@ -9,7 +9,7 @@ import managers.FileReaderManager;
  
 public class BasePage {
 	static WebDriver driver;
-	static ConfigFileReader configFileReader = FileReaderManager.getInstance().getConfigReader();
+//	static ConfigFileReader configFileReader = FileReaderManager.getInstance().getConfigReader();
 	
 	
 	public BasePage(WebDriver driver) {
@@ -17,10 +17,10 @@ public class BasePage {
 	}
 	
 	
-	public static void getUrl(String friendlyName) {
-			String url = configFileReader.getApplicationUrl(friendlyName);
-			driver.get(url);		 
-		}
+//	public static void getUrl(String friendlyName) {
+//			String url = configFileReader.getApplicationUrl(friendlyName);
+//			driver.get(url);
+//		}
 
 	public static void hardCodedUrl() {
 		driver.get("https://www.duckduckgo.com");

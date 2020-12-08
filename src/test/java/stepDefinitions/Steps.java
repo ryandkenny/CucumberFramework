@@ -18,10 +18,10 @@ TestContext testContext;
 		pages.BasePage.hardCodedUrl();
 	}
 	
-	@Given("^I navigate to \"([^\"]*)\"$")
-	public void navigateTo(String page) {
-		pages.BasePage.getUrl(page);
-	}
+//	@Given("^I navigate to \"([^\"]*)\"$")
+//	public void navigateTo(String page) {
+//		pages.BasePage.getUrl(page);
+//	}
 
 	@When("^I enter \"([^\"]*)\" in the \"([^\"]*)\" field$")
 	public void searchFor(String text, String id) {
